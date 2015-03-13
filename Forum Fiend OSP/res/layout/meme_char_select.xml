@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <GridView
+		        android:layout_height="0dp"
+		        android:layout_width="match_parent"
+		        android:layout_weight="1"
+		        android:cacheColorHint="#00000000"
+		        android:columnWidth="110dp"
+		        android:numColumns="auto_fit"
+		        android:id="@+id/meme_character_grid"
+		         ></GridView>
+
+		    
+		    <TextView 
+		        android:background="#aa000000"
+		        android:textColor="#ffffff"
+		        android:textStyle="bold"
+		        android:text="Powered by Mad About Memes"
+		        android:gravity="center"
+		        android:layout_width="match_parent"
+		        android:layout_height="50dp"
+		        android:id="@+id/meme_character_mam_promo"
+		        />
+    
+</LinearLayout>

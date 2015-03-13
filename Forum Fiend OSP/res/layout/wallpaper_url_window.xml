@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
+    android:padding="6dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="6dp"
+        android:text="Please enter the full URL of the wallpaper you want to use." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_weight="1" >
+
+        <EditText
+            android:id="@+id/etWallpaperURL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="example: http://www.backgroundbag.com/backgrounds/blue_sky_21.png"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/btnSetWallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Set" />
+
+    </LinearLayout>
+
+        
+        
+    
+    <Button
+	    android:id="@+id/btnFindWallpapers"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Find Backgrounds Online" />
+    
+    <Button
+	    android:id="@+id/btnClearWallpaper"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Remove Wallpaper" />
+
+
+</LinearLayout>

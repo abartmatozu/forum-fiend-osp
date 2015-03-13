@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_home_index" android:title="Forum Index"></item>
+    <item android:id="@+id/menu_home_timeline" android:title="Timeline"></item>
+    <item android:id="@+id/menu_home_favs" android:title="Favorites"></item>
+    <item android:id="@+id/menu_home_unread" android:title="Unread Topics"></item>
+    <item android:id="@+id/menu_home_participated" android:title="Participated Topics"></item>
+    <item android:id="@+id/menu_home_subscribed" android:title="Subscribed Topics"></item>
+</menu>

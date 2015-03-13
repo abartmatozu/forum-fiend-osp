@@ -1,0 +1,10 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item 
+            android:id="@+id/inbox_new_convo" 
+            android:icon="@drawable/ic_action_new_email" 
+            android:titleCondensed="New" 
+            android:title="New Message" 
+            android:showAsAction="ifRoom"></item>
+        
+    </menu>

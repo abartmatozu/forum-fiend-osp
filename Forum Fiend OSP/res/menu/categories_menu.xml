@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    
+    <item 
+        android:id="@+id/cat_mark_read" 
+        android:titleCondensed="Mark Read" 
+        android:icon="@drawable/ic_action_read"
+        android:title="Mark All as Read" />
+    
+    <item 
+        android:id="@+id/cat_new_thread" 
+        android:titleCondensed="New" 
+        android:showAsAction="ifRoom" 
+        android:title="New Thread" 
+        android:icon="@drawable/ic_action_new" />
+    <item android:id="@+id/cat_open_browser" android:title="Open in Browser" android:showAsAction="never"></item>
+
+</menu>

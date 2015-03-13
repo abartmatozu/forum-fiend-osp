@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/color_code"
+	android:fitsSystemWindows="true"
+    >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="12dp"
+	    android:layout_gravity="center_horizontal"
+	    android:orientation="vertical" >
+	    
+	    <ImageView 
+	        android:layout_width="300dp"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/about_logo"
+	        android:scaleType="centerInside"
+	        android:layout_gravity="center_horizontal"
+	        />
+	    
+	    <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_margin="18dp"
+        	android:textStyle="bold"
+        	android:textColor="#aaffffff"
+        	android:text="Standard Edition"
+        	android:layout_gravity="center_horizontal"
+        	android:id="@+id/about_tv_edition"
+            />
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="6dp"
+	        >
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginRight="6dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#aaffffff"
+	        	android:text="Build Version:"
+	            />
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginRight="6dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#ffffff"
+	        	android:text="@string/app_version"
+	            />
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="6dp"
+	        >
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginRight="6dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#aaffffff"
+	        	android:text="Build Date:"
+	            />
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginRight="6dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#ffffff"
+	        	android:text="@string/compile_date"
+	            />
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="6dp"
+	        >
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginRight="6dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#aaffffff"
+	        	android:text="Developer:"
+	            />
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginRight="6dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#ffffff"
+	        	android:text="Forum Fiend Open Source Project"
+	            />
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="6dp"
+	        android:id="@+id/about_ll_contact_support"
+	        >
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginRight="6dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#aaffffff"
+	        	android:text="Contact:"
+	            />
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginRight="6dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#ffffff"
+	        	android:text="support@ape-apps.com"
+	            />
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:id="@+id/amazon_scary_about_section"
+	        >
+	    
+		    <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginTop="18dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#aaffffff"
+	        	android:text="External Libraries Used"
+	            />
+		    
+		    <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginTop="6dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#ffffff"
+	        	android:text="android-support-v4.jar\naXMLRPC_v1.7.2.jar\ngson-2.2.4.jar\nhttpmime-4.2.5.jar\nuniversal-image-loader-1.9.3.jar"
+	            />
+		    
+		    <ImageView 
+		        android:layout_width="300dp"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/powered_by"
+		        android:scaleType="centerInside"
+		        android:layout_gravity="center_horizontal"
+		        android:id="@+id/about_powered_by"
+		        />
+		    
+		    <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginTop="18dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#aaffffff"
+	        	android:id="@+id/about_tv_changelog_header"
+	        	android:text="Changelog"
+	            />
+		    
+		    <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginTop="6dp"
+	        	android:layout_marginBottom="26dp"
+	        	android:textStyle="bold"
+	        	android:textColor="#ffffff"
+	        	android:text="changelog here"
+	        	android:id="@+id/about_tv_changelog"
+	        	android:typeface="monospace"
+	            />
+	    
+	    </LinearLayout>
+	
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/text_settings_cb_smoothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use Text Smoothing" />
+    
+    <CheckBox
+        android:id="@+id/text_settings_cb_opensans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use OpenSans Font" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Font Size:"
+        android:layout_margin="6dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <SeekBar
+        android:id="@+id/text_settings_sb_font_size"
+        android:max="30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_settings_tb_sample"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:text="Sample text." />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="NOTE: Some changes may not take effect until you restart the app."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+</LinearLayout>

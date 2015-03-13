@@ -1,0 +1,337 @@
+v1.3.3
+3/13/2015
+Branched off as Forum Fiend OSP
+Removed all Ape Apps related services and libraries
+Removed non-open 3rd party libraries
+Fixed avatar upload bug
+
+v1.3.2
+2/10/2015
+ApeAppsLibrary v1.1
+Had to remove Forum Owner MobFox Advertising (due to Google Play restrictions)
+The Meme Maker now ties in to madaboutmemes.com
+
+v1.3.1
+1/12/2015
+Addressed bugs from Google Play error console
+Added "Timeline" view and start page option
+Added the ability to rename servers on the main screen
+Improved server-detection methods
+Removed old unused libraries
+Forum owners can now collect Google Analytics data through Forum Fiend
+Forum owners can now use their own Mobfox ad banners to monitize through Forum Fiend
+
+v1.3
+12/17/2014
+All new theme settings screen with real-time preview
+Added quick reply on post pages
+Brought post pagination stuff out of the menus/actionbar
+Can now customize the forum start page
+Added Quick Reply bar for posts
+Active Users sidebar can now be turned off for tablets
+Inbox/Mail layout updates
+Layout updates to sliding drawer menu
+Added support for https servers
+Now supports Android v2.3 Gingerbread devices
+Added Material theme support
+Bug fixes
+
+v1.2.14
+11/28/2014
+Added support for new discussionsnetwork.com based chat
+Bug fixes
+Slight layout changes
+
+v1.2.13.1
+11/23/2014
+Quick bugfix release for Lollipop devices
+
+v1.2.13
+11/22/2014
+OpenSans theme is now off by default
+Increased mail service timer again to further reduce server loads
+Slight theme changes
+Updated IAP SDK
+Added a circle border around user avatars
+Updated to the latest ColorPickerFragment code from Noteastic
+
+v1.2.12
+11/11/2014
+SDK updates
+Bug fix involving bad chat threads
+Theme updates for Lollipop devices
+Other random slight theme updates
+
+v1.2.11
+9/30/2014
+Added debate-forums.com to the default listing
+Bug fixes
+
+v1.2.10
+8/29/2014
+All API calls now use a single session-level method
+Added new ApeImageCacher class for fetching .php image types
+Switched image upload server to discussionsnetwork.com
+Amazon App Store version no longer shows anything useful on the About section
+Increased the mail service timer to reduce loads on servers
+Added Meme Maker! :-)
+Added user online status indicator to posts
+Slight layout rearrangments on posts and topics
+Slight layout changes to Chat screen
+Added the option to save post pictures to SD card
+Bug fixes
+
+v1.2.9
+8/3/2014
+Ditched OpenX support
+Addressed bugs from Google Play error console
+Amazon App Store version no longer shows changelog
+App now renders smileys :-)
+Added support for [code] tag
+Added a views indicator for topics
+Added 'Open in Browser' and 'Share Topic' options for phpBB systems
+App now handles file attachments
+Performance improvements
+Updated to latest UniversalImageLoader
+
+v1.2.8
+6/9/2014
+Cleaned up old unused layout files
+Added new theme customization options
+Can now direct new accounts to website on stand alone apps
+Can now turn off forum icons and avatars
+Added support for OpenX Advertising Server on custom forums
+App can now be moved/installed to SD card
+Added status and nav bar tinting ("immersive mode") for Kit Kat+ devices
+Added ability to add and view forum favorites
+Added Close Forum and Theme Color options to Forum Web Viewer screen
+Bug Fixes
+
+v1.2.7
+5/7/2014
+Addressed bugs from Google Play error console
+App now sends ForumFiend useragent with all API requests
+Added option to add non-tapatalk forums to in-app WebView
+Added Discussions and DevsNest to pre-installed forums list
+Added post preview option to post editor screen
+Added Select All and Clear All options to post editor menu
+Replaced element shading with a simple light border
+Can now access some forum settings when logged off
+Other various bug fixes and layout updates
+
+v1.2.6
+4/30/2014
+Changed the default avatar icon
+Forum elements now contained in a shaded box theme
+Can now create homescreen shortcut icons for each forum (required new permission)
+Improvements to post rendering
+Added infinite scrolling to forum topics listing
+Various layout tweaks and bug fixes
+
+v1.2.5
+4/27/2014
+Bug fix with menu button not working properly
+The default signature will now take on forum color if specified in server forumfiend.json manifest file
+Fixed bug where lack of connectivity would clear all saved usernames and passwords
+Added support for Thanks and Like functionality from various forums
+Text smoothing is now disabled by default
+Reordered options on slide out settings menu
+Now opens last page in an unread topic by default
+
+v1.2.4
+4/26/2014
+Added in-app about screen with changelog
+Fixed bug with replying to notification messages
+
+v1.2.3
+4/25/2013
+No longer offers picture from camera options when no camera available
+Fixed bug with the Mail Service not working
+
+v1.2.2
+4/24/2014
+Addressed bugs from Google Play error console
+Fixed 'Clear Cache' bug
+Fixed 'dual intro screens' bug
+
+v1.2.1
+4/21/2014
+Addressed bugs from Google Play error console
+Implemented custom Back Stack manager
+Added link to Forum Owners website on forumfiend.net
+Now supports forumfiend.json server manifest files
+Improvements to the Forum Index and Close Forum navigation options
+
+v1.2
+4/19/2013
+Updated icon
+Server listing now shows logged user info, avatar, server favicon (if exists)
+Server list moved to database
+Converted Posts to fragment
+Added tablet layout support with always on screen chat
+On phone devices, login and chat screens now slide out from right side
+All primary fragments are now handled by main activity
+Now supports only light theme
+Various layout updates throughout
+Now recognized locked topics
+Added moderator sticky/lock/delete options for topics
+Added Ban Hammer
+Bug fixes to gallery image uploading
+Improvements to post formatting buttons
+Now automatically saves a draft of interrupted posts
+Intercepted tapatalk links can now drill down to the forum and topic level
+Stand alone apps can now intercept incoming links from their own server
+Downgraded UniversalImageLoader to v1.8.6 due to crashes with Android v4.3 loading .ico file from xda-developers.com (probably others)
+
+v1.1.8
+4/3/2014
+Bug fixes from Google Play error console
+Added notifications for new messages!
+Updated AdMob and Analytics to the new Google Play Services editions
+Updated to the new non-nagging Ape Market stat logger
+Added Donation link to the primary menu :)
+
+v1.1.7
+1/18/2014
+Bug fixes with URL link rendering
+Now also handles web links with the tapatalk:// URI scheme
+Bug fix with links and line-breaks
+Big fix with incoming tapatalk links
+Rendering fix with in-post GT/LT symbols
+Sliding drawer now uses appropriate indicator icon
+Added shadow to sliding drawer
+Posts screen now shows page number in ActionBar subtitle
+Added premium advertising removal in-app purchase for users with Google Play
+
+v1.1.6
+1/17/2014
+Replaced Discussions with Ape Apps Forums on default forum listing
+Settings fragment removed from main tab listing, now a sliding drawer on all main sections
+Updated to latest Universal Image Loader
+Added Google Billing SDK and permissions (for future IAP support)
+Added Text Options dialog to settings menu
+Default text size is now slightly larger
+Custom chat thread now shows the actual thread name on the main screen
+App now handles web links with the tapatalk-byo:// URI scheme ;-)
+Links in posts now take on the users custom theme color
+Internal same-server forum links for phpBB forums are now handled within the app
+Bug fixes
+
+v1.1.5
+12/23/2013
+Added OpenSans font to forums, topics, posts, and mail
+Fixed rendering issues inside of category-only forums
+Updated default forum icons
+Now shows indication of forum with subforums
+Added progress indicator on posts screen
+Added support for e-mail address parsing
+Forum scroll position is now only saved for returning backwards
+Added rp-forums.net to default forum listing
+Removed Discussions references from Login screen
+Cleaned up login and new account screens to match WP8 version
+User now returns to first tab after logging in
+
+v1.1.4
+12/8/2013
+Added dice rolling post option (for RP stuff)
+
+v1.1.3
+11/24/2013
+New icon
+Bug fixes from Google Play error reports
+Ditched ldpi graphic assets
+Added xxxhdpi graphic assets
+
+v1.1.2
+11/18/2013
+Image upload server changed to forumfiend.net
+Changed the new post color picker into a stand alone ColorPickerDialogFragment that can be used anywhere
+ActionBar and TabBar can now automatically adjust foreground color for lighter background colors
+Moved all color and theme determination options to ThemeSetter class
+Can now customize accent color for individual forums
+Theme settings are now saved on a per-forum basis
+
+v1.1.1
+11/15/2013
+Thread layout changed
+Threads now show avatar of user who created them
+Fixed bug with some sub-forums not working on certain forums
+Fixed bug with forums using customized URLs being treated as website links
+
+v1.1
+11/12/2013
+New icon
+New default theme color
+Added ability to make thread a 'Chat Thread'
+Fixed bugs from Google Play error console
+Now uses 'Split Actionbar' so functions are easier to reach
+
+
+v1.0.6
+11/6/2013
+Fixed bug with saving last known tab on main screen
+Added new mail notification on main screen
+Fixed bug with Subscribed Topics page
+Unread mail now shows up in red
+Subscribed topics now show up on Stand Alone apps
+Announcement and Sticky topics now show up on top above Subforums
+Can now subscribe/unsubscribe from topics
+Removed a ton of old and unused graphics assets
+Upgraded all action bar and menu icons to Android standard set
+Added search bar to the main page actionbar
+
+v1.0.5
+11/4/2013
+Removed *many* outdated classes and activities
+Forums that are Links are now properly handled
+Fixed partial width listview on Intro Screen	
+Switched to larger tabs, swipe-able
+Now built against Android 4.4 SDK
+
+v1.0.4
+10/30/2013
+Fixed bug with Integer type userid's
+Fixed support for other forum types, such as anandtech
+Cleaned all unused imports and references
+Merged the two separate forum parse methods
+
+v1.0.3
+10/24/2013
+Bug fixes
+Can now show some attachment images
+Changes to Universal Image Loader implementation
+
+v1.0.2.2
+10/12/2013
+Bug fixes
+
+v1.0.2.1
+10/12/2013
+Bug fixes
+
+v1.0.2
+10/11/2013
+Addressed bugs from Google Play crash log
+Updated to latest Universal Image Loader
+Default theme can now be set from XML Settings file
+Default theme is now the Light theme
+Layout update for threads
+Thread reply counts are now shown
+Added Subscribed Topics category
+Now shows Forum icons if they are set on server
+New default subforum indicator icons for read/unread forums
+Can now mark posts as unread from individual forums or the whole system
+Thread scroll position is now retained
+Now returns a maximum of 40 threads
+
+v1.0.1
+9/24/2013
+Addressed bugs from Google Play crash log
+Code clean-up on CategoriesFragment
+Threads with new messages now show bold heading
+Added automatic server validation when adding new servers
+
+v1.0
+9/8/2013
+Initial Release
+Base built from Discussions v5.1.2

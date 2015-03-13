@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
+    android:padding="6dp"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1" >
+        
+        <RadioButton 
+            android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+            android:id="@+id/start_location_index"
+            android:text="Forum Index"
+            />
+        
+        <RadioButton 
+            android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+            android:id="@+id/start_location_favorites"
+            android:text="Favorites"
+            />
+        
+        <RadioButton 
+            android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+            android:id="@+id/start_location_unread"
+            android:text="Unread Topics"
+            />
+        
+        <RadioButton 
+            android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+            android:id="@+id/start_location_participated"
+            android:text="Participated Topics"
+            />
+        
+        <RadioButton 
+            android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+            android:id="@+id/start_location_subscribed"
+            android:text="Subscribed Topics"
+            />
+        
+    </RadioGroup>
+    
+    <Button
+	    android:id="@+id/start_location_save"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Save" />
+
+</LinearLayout>

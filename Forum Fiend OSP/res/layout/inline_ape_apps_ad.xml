@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center_vertical"
+  android:orientation="horizontal" >
+  
+
+        <ImageView 
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+         android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/android_download_button"
+       
+        android:id="@+id/aana_app_icon"
+        />
+        
+
+    <LinearLayout
+  android:layout_width="0dp"
+  android:layout_height="wrap_content"
+  android:layout_weight="1"
+  android:orientation="vertical" >
+  
+        <LinearLayout
+            android:layout_marginTop="16dp"
+	      android:layout_height="wrap_content"
+	      android:layout_width="fill_parent"
+	      android:orientation="horizontal">
+	      
+              <TextView
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:text="App Name"
+			    android:lines="1"
+			    android:ellipsize="end"
+			    android:textSize="16sp"
+			    android:textColor="#dd000000"
+			    android:fontFamily="sans-serif-light"
+			    android:id="@+id/aana_app_name" />
+            
+            
+            <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sponsored"
+    android:textSize="14sp"
+    android:alpha=".4"
+    android:maxLines="1"
+    android:fontFamily="sans-serif-light"
+    android:layout_marginRight="16dp"
+    android:gravity="right"
+    android:id="@+id/category_last_update" />
+            
+        </LinearLayout>
+  
+  
+    
+
+  <LinearLayout
+      android:layout_marginBottom="16dp"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:orientation="horizontal">
+    
+  <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="FREE"
+		        android:textColor="#a4c739"
+		        android:id="@+id/aana_app_price"
+		        android:textStyle="bold"
+		        android:textSize="14sp"
+		        />
+	        
+	        <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="4dp"
+		        android:text="on Google Play."
+		        android:id="@+id/aana_app_store"
+		        android:textColor="#333333"
+		        android:fontFamily="sans-serif-light"
+		        android:textSize="14sp"
+		        />
+  
+  
+  </LinearLayout>
+  
+  <View 
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#11000000"
+    />
+  
+
+
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

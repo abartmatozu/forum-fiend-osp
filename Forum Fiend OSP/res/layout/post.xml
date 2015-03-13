@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingLeft="6dp"
+  android:paddingRight="6dp"
+  android:paddingTop="3dp"
+  android:paddingBottom="3dp"
+  android:gravity="center_vertical"
+  android:orientation="vertical" >
+  
+    <LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:id="@+id/ll_border_background"
+	  android:background="@drawable/element_border"
+	  android:gravity="center_vertical"
+	  android:orientation="horizontal">
+
+<LinearLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/ll_color_background"
+  android:background="#99ffffff"
+  android:padding="12dp"
+  android:orientation="vertical" >
+  
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+    <FrameLayout 
+     android:layout_width="42dp"
+     android:layout_height="42dp"
+     android:layout_marginRight="6dp"
+     >
+     
+	     <ImageView 
+	      android:id="@+id/post_avatar"
+	      android:layout_width="match_parent"
+	      android:layout_height="match_parent"
+	      android:scaleType="centerCrop"
+	      android:src="@drawable/no_avatar"
+	      android:layout_gravity="center_vertical"
+	      />
+	     
+	     <ImageView 
+	      android:layout_width="match_parent"
+	      android:layout_height="match_parent"
+	      android:scaleType="centerCrop"
+	      android:src="@drawable/avatar_frame"
+	      android:id="@+id/post_avatar_frame"
+	      android:layout_gravity="center_vertical"
+			        />
+	        
+		</FrameLayout>
+    
+  
+  <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    
+      <TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:textSize="16sp"
+	      android:id="@+id/post_author" />
+	    
+	    
+      	<TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:textStyle="bold"
+	      android:fontFamily="sans-serif-condensed"
+	      android:textColor="#339900"
+	      android:id="@+id/post_online_status" />
+      
+	    
+	    <TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:textColor="#ffcc00"
+	      android:fontFamily="sans-serif-condensed"
+	      android:id="@+id/post_thanks_count" />
+	    
+	    <TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:textColor="#339900"
+	      android:fontFamily="sans-serif-condensed"
+	      android:id="@+id/post_likes_count" />
+	    
+	    
+
+  </LinearLayout>
+  
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+	    
+      <TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:alpha=".5"
+	      android:text="#1"
+	      android:gravity="right"
+	      android:fontFamily="sans-serif-condensed"
+	      android:layout_gravity="right"
+	      android:id="@+id/post_number" />
+      
+      <TextView
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:alpha=".5"
+	      android:gravity="right"
+	      android:fontFamily="sans-serif-condensed"
+	      android:layout_gravity="right"
+	      android:id="@+id/post_timestamp" />
+      
+  </LinearLayout>
+  
+  
+  
+  </LinearLayout>
+      
+ <LinearLayout 
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6dp"
+      android:layout_marginBottom="4dp"
+      android:focusable="false"
+	  android:focusableInTouchMode="false"
+	  android:descendantFocusability="blocksDescendants"
+      android:id="@+id/post_body_holder"
+	        ></LinearLayout>
+
+</LinearLayout>
+
+
+
+</LinearLayout>
+
+    </LinearLayout>

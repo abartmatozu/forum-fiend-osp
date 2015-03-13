@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item 
+      android:title="New Post" 
+      android:icon="@drawable/ic_action_new" 
+      android:id="@+id/menu_newpost" 
+      android:titleCondensed="Post" 
+      android:showAsAction="ifRoom"></item>
+  
+  <item 
+      android:title="Refresh Posts" 
+      android:icon="@drawable/ic_action_refresh" 
+      android:id="@+id/menu_refresh" 
+      android:titleCondensed="Refresh" ></item>
+  
+  <item 
+      android:title="Share Topic" 
+      android:id="@+id/posts_menu_share"
+      android:showAsAction="never" ></item>
+  
+  <item 
+      android:title="Open in Browser" 
+      android:id="@+id/posts_menu_browser"
+      android:showAsAction="never" ></item>
+
+  
+</menu>

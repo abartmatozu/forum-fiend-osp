@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/profile_menu_message" 
+        android:titleCondensed="Message" 
+        android:showAsAction="always" 
+        android:title="Send Message" 
+        android:icon="@drawable/ic_action_new_email"></item>
+    
+
+</menu>

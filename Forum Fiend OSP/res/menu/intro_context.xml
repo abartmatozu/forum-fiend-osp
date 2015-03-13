@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/intro_context_rename" android:titleCondensed="Rename" android:title="Rename Server"></item>
+    <item android:id="@+id/intro_context_remove" android:titleCondensed="Remove" android:title="Remove Server"></item>
+    <item android:id="@+id/intro_shortcut" android:titleCondensed="Shortcut" android:title="Add to Homescreen"></item>
+
+</menu>

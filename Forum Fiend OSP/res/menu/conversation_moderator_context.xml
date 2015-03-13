@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/conversation_kick" android:title="Kick User"></item>
+<item android:id="@+id/conversation_promote" android:title="Make Moderator"></item>
+<item android:id="@+id/conversation_set_observer" android:title="Make Observer"></item>
+<item android:id="@+id/conversation_set_participant" android:title="Make Participant"></item>
+</menu>

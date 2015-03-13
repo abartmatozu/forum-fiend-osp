@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <item android:title="Ban User" android:id="@+id/posts_context_ban"></item>
+    <item android:title="Delete Post" android:id="@+id/posts_context_delete">
+        <menu>
+            <item android:id="@+id/posts_context_delete_yes" android:title="Delete"/>
+            <item android:id="@+id/posts_context_delete_no" android:title="Nevermind"/>
+        </menu>
+    </item>
+    
+	<item android:title="Edit Post" android:id="@+id/posts_edit" android:titleCondensed="Edit" android:visible="false"></item>
+	<item android:title="Quote Post" android:id="@+id/posts_quote" android:titleCondensed="Quote" android:visible="false"></item>
+	
+	<item android:title="Thank Post" android:id="@+id/posts_thank" android:titleCondensed="Thank" android:visible="false"></item>
+	<item android:title="Like Post" android:id="@+id/posts_like" android:titleCondensed="Like" android:visible="false"></item>
+	
+	<item android:title="Message User" android:titleCondensed="Message User" android:visible="false" android:id="@+id/posts_message"></item>
+	<item android:id="@+id/posts_copy" android:titleCondensed="Copy" android:title="Copy Text to Clipboard"></item>
+
+	
+</menu>

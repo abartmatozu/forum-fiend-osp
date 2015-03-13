@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:id="@+id/social_wrapper"
+  android:orientation="vertical">
+   
+    <ListView
+        android:layout_width="match_parent"
+  		android:layout_height="0dp"
+  		android:layout_weight="1"
+  		android:id="@+id/social_list_view"
+         ></ListView>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bbbbbb"
+        />
+
+	<LinearLayout
+    	android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:gravity="center_vertical"
+  		android:id="@+id/chat_input_area"
+  		android:orientation="horizontal">
+	    
+	    
+		<EditText
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:padding="6dp"
+			android:textSize="14sp"
+			android:hint="say something"
+			android:id="@+id/social_status"
+			android:background="#00000000"
+			android:imeOptions="actionDone"  />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/social_submit_status"
+			android:background="#00000000"
+			android:fontFamily="sans-serif-condensed"
+			android:textStyle="bold"
+			android:padding="6dp"
+			android:textSize="14sp"
+			android:text="POST" />
+	</LinearLayout>
+	
+</LinearLayout>

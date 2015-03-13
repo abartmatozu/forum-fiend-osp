@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <item android:title="(Un)Sticky Topic" android:id="@+id/categories_context_sticky"></item>
+    <item android:title="(Un)Lock Topic" android:id="@+id/categories_context_lock"></item>
+    <item android:title="Delete Topic" android:id="@+id/categories_context_delete">
+        <menu>
+            <item android:id="@+id/categories_context_delete_yes" android:title="Delete"/>
+            <item android:id="@+id/categories_context_delete_no" android:title="Nevermind"/>
+        </menu>
+    </item>
+    
+<item android:title="Subscribe to Topic" android:id="@+id/categories_subscribe" android:titleCondensed="Subscribe"></item>
+<item android:id="@+id/categories_unsubscribe" android:title="Unsubscribe from Topic" android:titleCondensed="Unsubscribe"></item>
+	
+	<item 
+	    android:title="Add to Favorites" 
+	    android:id="@+id/categories_add_favorite" ></item>
+	
+	<item 
+	    android:title="Remove from Favorites" 
+	    android:id="@+id/categories_remove_favorite" ></item>
+
+</menu>

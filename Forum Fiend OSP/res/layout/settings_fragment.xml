@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+    	android:layout_height="56dp"
+    	android:orientation="horizontal"
+    	android:gravity="center_vertical"
+    	android:id="@+id/settings_user_box"
+	     >
+	     
+	    <FrameLayout 
+	        android:layout_width="32dp"
+	        android:layout_height="32dp"
+	        android:layout_marginLeft="16dp"
+	        >
+	        
+	        <ImageView 
+		        android:id="@+id/settings_user_avatar"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:scaleType="centerCrop"
+		        android:src="@drawable/no_avatar"
+		        android:layout_gravity="center_vertical"
+		        />
+	        
+	        <ImageView 
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:scaleType="centerCrop"
+		        android:src="@drawable/avatar_frame"
+		        android:layout_gravity="center_vertical"
+		        />
+	        
+	    </FrameLayout>
+	    
+	    
+	    
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="24dp"
+			android:paddingTop="18dp"
+			android:paddingBottom="18dp"
+	        android:layout_gravity="center_vertical"
+	        android:text="username"
+	        android:textSize="16sp"
+	        android:textColor="#000000"
+	        android:textStyle="bold"
+	        android:id="@+id/settings_user_name"
+	        />
+	    
+	    <ImageView 
+	        android:id="@+id/settings_user_logout"
+	        android:layout_width="24dp"
+	        android:layout_height="24dp"
+	        android:tint="#ff0000"
+	        android:scaleType="centerCrop"
+	        android:src="@drawable/ic_action_remove_dark"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginRight="16dp"
+	        />
+	    
+	</LinearLayout>
+	
+	<ListView 
+	    android:layout_width="match_parent"
+    	android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:scrollbarStyle="insideInset"
+	    android:id="@+id/settings_list"
+	    ></ListView>
+    
+</LinearLayout>

@@ -1,0 +1,31 @@
+Discussions
+End User License Agreement
+August 11th, 2011
+
+1. Licensing
+All software and code that are a part of Discussions Legacy are the property of Ape Apps.  By using this software, you agree that you are using it for your entertainment purposes only and that you have no right to reverse-engineer, clone, modify, or in any way alter this software, at least not without the specific permission from Ape Apps.  
+
+2. Warranties and Defect Liability
+Ape Apps provides no warranty for Discussions Legacy.  This software has been tested and it not known to cause any harm or damage of any sort to the hardware it designed to be used with.  It is impossible to test this software against all possible hardware and software configurations.  Therefore, Discussions Legacy is provided by Ape Apps "as is" and without any warranty of any sort, either expressed or implied.  The entire risk involved with using this software falls on the end user.  The end user is responsible for weighing the risks in using Discussions Legacy and determining whether or not the software is right for him or her.  Any defects found in Discussions Legacy are not intentional and Ape Apps is not responsible in any way shape or form for any harm caused by it's use.
+
+3. End User Limitations and Behavior
+Key parts of the Discussions Legacy software are driven by community and other online social interactions.  Therefore, the end user must agree not to interfere with the experience of other end users.  Specifically, the end user agrees that he or she will not:
+3a. Insult, belittle, or in any way intentionally cause distress or discomfort upon other users of Discussions Legacy.
+3b. Impersonate other end users, or intentionally falsify their identity at the expense of another user.
+3c. Participate in any behavior that adversely impacts the performance of the Discussions Legacy server.  This includes, but is not limited to Spamming and Hacking.
+3d. Take advantage of any code defect or exploit that allows the user abilities that they would otherwise not be allowed to have.
+3e. Post offensive, vulgar, violent, threatening, or illegal content of any sort.
+Violation of the above, even in a circumstance where the user has paid money for Discussions Legacy, is grounds for Ape Apps to deny the user the ability to use Discussions Legacy, without the option for refund.
+	
+4. Content Liability
+Discussions Legacy contains the ability for the end user to submit content to the Discussions Legacy server, and to retrieve content that has been submitted by other end users.  Content which has been submitted by users is their responsibility and not the responsibility of the developer.  The software provides the ability to filter out content which may not be appropriate, and periodically content will be screened and filtered as Ape Apps sees necessary, but it is not possible to screen everything.  The end user is responsible in determining if the content delivered in this software is appropriate for them or not.  Because of this, the end user must obey the following age restrictions:
+4a. End users must be 13 years of age or older to use this software and to create an account on the Discussions Legacy server.
+4b. End users under the age of 18 may only use Discussions Legacy with the permission of a parent or guardian.
+4c. End users under the age of 21 may only upload text to the Discussions Legacy servers, no images, video, or any other type of media.
+Violation of the above, even in a circumstance where the user has paid money for Discussions Legacy, is grounds for Ape Apps to deny the user the ability to use Discussions Legacy, without the option for refund.
+
+5. Content Ownership
+End users may submit content to the Discussions Legacy servers, and this content may be in the form of text, images, audio, video, or even ideas.  By submitting content, the end user gives Ape Apps permission to use and redistribute the content however Ape Apps may deem fit.  Upon submitting content to the Discussions Legacy server, the end user transfers all rights to said content to Ape Apps.  
+
+6. Limitation on Liability
+By using Discussions Legacy, the end user agrees that they will not sue or otherwise take any form of legal action against the developer Ape Apps, or against it's owner Brandon A. Stecklein, or against any other employee or affiliate of Ape Apps.  Discussions Legacy is intended for private and entertainment use only.  

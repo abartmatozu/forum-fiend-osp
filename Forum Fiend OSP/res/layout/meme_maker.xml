@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="top text"
+        android:id="@+id/meme_maker_top_text"
+        />
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    
+	    <RelativeLayout 
+	        android:layout_width="236dp"
+	        android:layout_height="250dp"
+	        android:layout_gravity="center"
+	        android:id="@+id/meme_maker_preview_holder"
+	        android:layout_margin="12dp"
+	        >
+	        
+	        <ImageView
+	            android:layout_height="match_parent"
+	            android:layout_width="match_parent"
+	            android:scaleType="centerCrop"
+	            android:src="@drawable/no_avatar"
+				android:id="@+id/meme_maker_image"
+	             />
+	        
+	        <FrameLayout
+	            android:layout_height="wrap_content"
+	            android:layout_width="match_parent"
+	            android:layout_margin="2dp"
+	            android:id="@+id/meme_maker_top_holder"
+	             ></FrameLayout>
+	        
+	        <FrameLayout
+	            android:layout_height="wrap_content"
+	            android:layout_width="match_parent"
+	            android:layout_margin="2dp"
+	            android:layout_alignParentBottom="true"
+	            android:id="@+id/meme_maker_bottom_holder"
+	             ></FrameLayout>
+	
+	        
+	    </RelativeLayout>
+    
+    </FrameLayout>
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="bottom text"
+        android:id="@+id/meme_maker_bottom_text"
+        />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/meme_maker_save_button"
+         />
+    
+
+</LinearLayout>

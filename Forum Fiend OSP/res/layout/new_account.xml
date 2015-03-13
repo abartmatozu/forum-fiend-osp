@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_margin="12dp"
+  android:fitsSystemWindows="true"
+  android:orientation="vertical">
+  
+<ScrollView 
+  android:layout_width="fill_parent"
+  android:layout_height="0dp"
+  android:layout_weight = "1"
+   >
+  
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_new_account_disclaimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="You are signing up for a new account on SERVERNAME, a third party forum server whose contents cannot be verified by Ape Apps.  Please proceed at your own risk."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <CheckBox
+        android:id="@+id/cb_new_account_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am at least 13 years old." />
+
+ <EditText
+ 	android:layout_width="fill_parent"
+ 	android:layout_height="wrap_content"
+ 	android:inputType="textNoSuggestions"
+ 	android:hint="username"
+ 	android:layout_marginTop="6dp"
+ 	android:id="@+id/newact_username" />
+ 
+
+
+ <EditText
+ 	android:layout_width="fill_parent"
+ 	android:layout_height="wrap_content"
+ 	android:hint="password"
+ 	android:password="true"
+ 	android:id="@+id/newact_password_1" />
+ 
+ 
+  <EditText
+ 	android:layout_width="fill_parent"
+ 	android:layout_height="wrap_content"
+ 	android:inputType="textEmailAddress"
+ 	android:hint="e-mail address"
+ 	android:id="@+id/newact_email" />
+ 
+
+ 
+ 
+ 
+ 
+ 
+</LinearLayout>
+</ScrollView>
+
+<Button
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:text="Create my account!"
+ 		android:layout_marginTop="6dp"
+ 		android:enabled="false"
+ 		android:id="@+id/newact_create" />
+
+</LinearLayout>

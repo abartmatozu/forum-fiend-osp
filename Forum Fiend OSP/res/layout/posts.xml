@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:id="@+id/social_wrapper"
+  android:orientation="vertical">
+   
+    <ListView
+        android:layout_width="match_parent"
+  		android:layout_height="0dp"
+  		android:layout_weight="1"
+  		android:id="@+id/posts_list_view"
+         ></ListView>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bbbbbb"
+        />
+    
+    <LinearLayout
+    	android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:gravity="center_vertical"
+  		android:id="@+id/posts_bottom_holder"
+  		android:orientation="vertical">
+
+		<LinearLayout
+	    	android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:gravity="center_vertical"
+	  		android:id="@+id/posts_input_area"
+	  		android:orientation="horizontal">
+		    
+		    
+			<EditText
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:padding="6dp"
+				android:textSize="14sp"
+				android:hint="quick reply"
+				android:id="@+id/posts_quick_reply"
+				android:background="#00000000"
+				android:imeOptions="actionDone"  />
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/posts_quick_reply_submit"
+				android:background="#00000000"
+				android:fontFamily="sans-serif-condensed"
+				android:textStyle="bold"
+				android:padding="6dp"
+				android:textSize="14sp"
+				android:text="POST" />
+		</LinearLayout>
+		
+		<View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="#33bbbbbb"
+	        />
+		
+		<LinearLayout
+	    	android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:gravity="center_vertical"
+	  		android:id="@+id/posts_pagination"
+	  		android:visibility="gone"
+	  		android:orientation="horizontal">
+		    
+		    <ImageView
+	    		android:id="@+id/imFirst"
+	    		android:layout_width="fill_parent"
+	    		android:layout_weight="1"
+	    		android:layout_height="36dp"
+	    		android:layout_margin="6dp"
+	    		android:src="@drawable/firstpage" />
+	    		
+	    	<ImageView
+	    		android:id="@+id/imPrevious"
+	    		android:layout_width="fill_parent"
+	    		android:layout_weight="1"
+	    		android:layout_height="36dp"
+	    		android:layout_margin="6dp"
+	    		android:src="@drawable/prevpage" />
+	    	
+	    	<TextView 
+	    	    android:id="@+id/posts_page_number"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    		android:layout_margin="6dp"
+	    		android:textStyle="bold"
+	      		android:fontFamily="sans-serif-condensed"
+	    		android:text="1 of 1"
+	    	    />
+	    		
+	    	<ImageView
+	    		android:id="@+id/imNext"
+	    		android:layout_width="fill_parent"
+	    		android:layout_weight="1"
+	    		android:layout_height="36dp"
+	    		android:layout_margin="6dp"
+	    		android:src="@drawable/nextpage" />
+	    		
+	    	<ImageView
+	    		android:id="@+id/imLast"
+	    		android:layout_width="fill_parent"
+	    		android:layout_weight="1"
+	    		android:layout_height="36dp"
+	    		android:layout_margin="6dp"
+	    		android:src="@drawable/lastpage" />
+		    
+		    
+		</LinearLayout>
+	
+	
+	</LinearLayout>
+	
+</LinearLayout>

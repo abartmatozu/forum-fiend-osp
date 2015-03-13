@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#eeeeee"
+	        android:padding="12dp"
+	        android:orientation="vertical">
+	        
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/forum_setting_tagline"
+		        android:padding="6dp"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Signature"
+				    android:textStyle="bold"
+				    android:textColor="#333333"
+				    android:textSize="16sp" />
+	            
+	            <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:id="@+id/forum_setting_tagline_body_builder"
+			        android:layout_marginTop="6dp"
+			        android:orientation="vertical" />
+	            
+	            <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="12dp"
+		        android:background="#bbbbbb" />
+            
+            </LinearLayout>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/forum_setting_theme"
+		        android:padding="6dp"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Theme"
+				    android:textStyle="bold"
+				    android:textColor="#333333"
+				    android:textSize="16sp" />
+	            
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Customize the look and feel of this forum."
+				    android:textColor="#333333"
+				    android:textSize="14sp" />
+	            
+	            <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="12dp"
+		        android:background="#bbbbbb" />
+            
+            </LinearLayout>
+            
+            
+            
+            
+            
+            
+            
+            
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/forum_setting_home"
+		        android:padding="6dp"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Home Page"
+				    android:textColor="#333333"
+				    android:textStyle="bold"
+				    android:textSize="16sp" />
+	            
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Forum Index"
+				    android:id="@+id/forum_setting_home_current"
+				    android:textColor="#333333"
+				    android:textSize="14sp" />
+	            
+	            <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="12dp"
+		        android:background="#bbbbbb" />
+            
+            </LinearLayout>
+            
+  
+            
+            
+            
+            
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/forum_setting_show_images"
+		        android:padding="6dp"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Forum Icons/Avatars"
+				    android:textColor="#333333"
+				    android:textStyle="bold"
+				    android:textSize="16sp" />
+	            
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="On"
+				    android:id="@+id/forum_setting_show_images_readout"
+				    android:textColor="#333333"
+				    android:textSize="14sp" />
+	            
+	            <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="12dp"
+		        android:background="#bbbbbb" />
+            
+            
+            </LinearLayout>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/forum_setting_display_name"
+		        android:padding="6dp"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Forum Display Name"
+				    android:textStyle="bold"
+				    android:textColor="#333333"
+				    android:textSize="16sp" />
+	            
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="forum name"
+				    android:textColor="#333333"
+				    android:textSize="14sp" />
+	            
+	            <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="12dp"
+		        android:background="#bbbbbb" />
+            
+            
+            </LinearLayout>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/forum_setting_text"
+		        android:padding="6dp"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="App Text Settings"
+				    android:textStyle="bold"
+				    android:textColor="#333333"
+				    android:textSize="16sp" />
+	            
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Adjust app-wide text size and font settings."
+				    android:textColor="#333333"
+				    android:textSize="14sp" />
+	            
+	            
+	            <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="12dp"
+		        android:background="#bbbbbb" />
+            
+            </LinearLayout>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/forum_setting_sidebar"
+		        android:padding="6dp"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Active Users Sidebar"
+				    android:textStyle="bold"
+				    android:textColor="#333333"
+				    android:textSize="16sp" />
+	            
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="On"
+				    android:id="@+id/forum_setting_sidebar_setting"
+				    android:textColor="#333333"
+				    android:textSize="14sp" />
+	            
+	            
+	            <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="12dp"
+		        android:background="#bbbbbb" />
+            
+            </LinearLayout>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/forum_setting_quick_reply"
+		        android:padding="6dp"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Quick Reply"
+				    android:textStyle="bold"
+				    android:textColor="#333333"
+				    android:textSize="16sp" />
+	            
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="On"
+				    android:id="@+id/forum_setting_quick_reply_setting"
+				    android:textColor="#333333"
+				    android:textSize="14sp" />
+	            
+	            
+	            <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="12dp"
+		        android:background="#bbbbbb" />
+            
+            </LinearLayout>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/forum_setting_cache"
+		        android:padding="6dp"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Clear App Cache"
+				    android:textStyle="bold"
+				    android:textColor="#333333"
+				    android:textSize="16sp" />
+	            
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="If the app is running poorly, you can sometimes fix it by clearing the cache.  You will loose some settings when you do this."
+				    android:textColor="#333333"
+				    android:textSize="14sp" />
+	            
+	            <View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:layout_marginTop="12dp"
+		        android:background="#bbbbbb" />
+            
+            </LinearLayout>
+            
+            
+            
+            <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/forum_setting_about"
+		        android:padding="6dp"
+		        android:orientation="vertical" >
+		        
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="About"
+				    android:textColor="#333333"
+				    android:textStyle="bold"
+				    android:textSize="16sp" />
+	            
+	            <TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="Information on the latest build of the app and detailed update history."
+				    android:textColor="#333333"
+				    android:textSize="14sp" />
+            
+            </LinearLayout>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </LinearLayout>
+        
+        <View
+	        android:layout_width="match_parent"
+	        android:layout_height="2dp"
+	        android:background="@drawable/black_white_gradient" />
+        
+    </LinearLayout>
+    
+
+</ScrollView>
